@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    outline:none;
+    border:1px solid red;
+}
+body{
+    width:100%;
+    background-color: #f0f2f5;
+    height:100px;
+}
+section{
+    display:flex;
+    flex-direction: row;
+}
+form{
+    background-color: #fff;
+    position:absolute;
+    width:320px;
+    height:270px;
+    padding: 10px 5px 20px 5px;
+    margin: 16vh 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px -7px;
+}
+input[type='text'],input[type='password']{
+    display: block;
+    background-color: #fff;
+    margin:auto;
+    border:1.5px solid rgb(200, 200, 200);
+    width:200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-family: 'segoe UI';
+    font-size: 15px;
+}
+button{
+    border:none;
+    background-color: #1877f2;
+    color:white;
+    width:200px;
+    height:10px;
+    display: block;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-weight: bold;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    padding-left: 15%;
+    margin-left: 50px;
+}
+.f-pws{
+    display:block;
+    width: 200px;
+    margin: auto;
+    color:#1877f2;
+    padding-left: 80px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+.line{
+    border-top: 1px solid #222;
+    opacity:0.2;
+}
+.btn{
+    width: 180px;
+    font-size: 14px;
+    background-color: #42b72a;
+    text-align: center;
+}
+.btn a{
+    padding:5%;
+    width:100%;
+}
+ .sub-link{
+    display: flex;
+    justify-content: center; 
+    margin-top:120%;
+    border-right: 100%;
+ } 
+.sub-link h3{
+    width:270px;
+    position:relative;
+    color:black;
+    font-family: "Segoe UI",Arial;
+    padding: 15px 50px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+.sub-link h3 a{
+    color:black;
+    font-weight: bold;
+    font-size: 13px;
+}
+.f-container{
+    width:350px;
+    margin-left: 300px;
+    margin-top:30vh;
+    font-family: "Segoe UI" Roboto "San Francisco";
+}
+.f-container img{
+width:250px;
+border:0;
+margin-bottom: 5%;
+
+}
+p{
+    font-size: 25px;
+    font-weight: 600;
+    word-spacing: 3px;
+}
