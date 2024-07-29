@@ -3,7 +3,8 @@
     padding: 0;
     text-decoration: none;
     outline:none;
-    border:1px solid red;
+    border:none;
+    /* border:1px solid red; */
 }
 body{
     width:100%;
@@ -13,6 +14,9 @@ body{
 section{
     display:flex;
     flex-direction: row;
+}
+.move{
+    margin-left: 5%;
 }
 form{
     background-color: #fff;
@@ -24,7 +28,7 @@ form{
     border-radius: 5px;
     box-shadow: 5px 5px 6px -7px;
 }
-input[type='text'],input[type='password']{
+input[type='text'],[type='password']{
     display: block;
     background-color: #fff;
     margin:auto;
@@ -37,27 +41,22 @@ input[type='text'],input[type='password']{
     font-family: 'segoe UI';
     font-size: 15px;
 }
-button{
-    border:none;
+.login{
     background-color: #1877f2;
     color:white;
-    width:200px;
-    height:10px;
-    display: block;
+    width:97%;
+    height:45px;
+    margin-left: 2%;
     border-radius: 5px;
-    padding: 15px 0;
     font-weight: bold;
     cursor:pointer;
-    display: flex;
-    align-items: center;
-    /* text-align: center; */
-    padding-left: 15%;
-    margin-left: 50px;
+    text-align: center;
 }
 .f-pws{
     display:block;
     width: 200px;
-    margin: auto;
+    margin-top: 2%;
+    margin-left: 7%;
     color:#1877f2;
     padding-left: 80px;
     font-family: 'Segoe UI';
@@ -68,14 +67,21 @@ button{
     opacity:0.2;
 }
 .btn{
-    width: 180px;
+    
+    width: fit-content;
     font-size: 14px;
     background-color: #42b72a;
     text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 85px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    
 }
 .btn a{
-    padding:5%;
-    width:100%;
+    color: white;
 }
  .sub-link{
     display: flex;
@@ -99,7 +105,7 @@ button{
     font-size: 13px;
 }
 .f-container{
-    width:350px;
+    width:30%;
     margin-left: 300px;
     margin-top:30vh;
     font-family: "Segoe UI" Roboto "San Francisco";
